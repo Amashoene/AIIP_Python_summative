@@ -1,0 +1,322 @@
+Problem no.1.py:7:1: E265 block comment should start with '# '
+#Problem 1:
+^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:9:21: E261 at least two spaces before inline comment
+y = "cluster number" # y denotes sensor clusters from 1 to 32
+                    ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:10:6: E272 multiple spaces before keyword
+for y  in range(1,33): #This returns a list of cluster numbers from 1 to 33 ,exlcuding the upper limit which is 33
+     ^
+    Avoid extraneous whitespace around keywords.
+
+    Okay: True and False
+    E271: True and  False
+    E272: True  and False
+    E273: True and\tFalse
+    E274: True\tand False
+Problem no.1.py:10:18: E231 missing whitespace after ','
+for y  in range(1,33): #This returns a list of cluster numbers from 1 to 33 ,exlcuding the upper limit which is 33
+                 ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.1.py:10:23: E261 at least two spaces before inline comment
+for y  in range(1,33): #This returns a list of cluster numbers from 1 to 33 ,exlcuding the upper limit which is 33
+                      ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:10:24: E262 inline comment should start with '# '
+for y  in range(1,33): #This returns a list of cluster numbers from 1 to 33 ,exlcuding the upper limit which is 33
+                       ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:10:80: E501 line too long (114 > 79 characters)
+for y  in range(1,33): #This returns a list of cluster numbers from 1 to 33 ,exlcuding the upper limit which is 33
+                                                                               ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+Problem no.1.py:11:18: E261 at least two spaces before inline comment
+    import random # This method is for generating random dataset of floats
+                 ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:12:46: E231 missing whitespace after ','
+    float = [random.random() for i in range(1,17)] #Returns an array of random floats for each cluster number
+                                             ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.1.py:12:51: E261 at least two spaces before inline comment
+    float = [random.random() for i in range(1,17)] #Returns an array of random floats for each cluster number
+                                                  ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:12:52: E262 inline comment should start with '# '
+    float = [random.random() for i in range(1,17)] #Returns an array of random floats for each cluster number
+                                                   ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:12:80: E501 line too long (109 > 79 characters)
+    float = [random.random() for i in range(1,17)] #Returns an array of random floats for each cluster number
+                                                                               ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+Problem no.1.py:13:30: E231 missing whitespace after ','
+    print('cluster number', y,float) #prints out range of 16 floats between 0 and 1 for each cluster
+                             ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.1.py:13:37: E261 at least two spaces before inline comment
+    print('cluster number', y,float) #prints out range of 16 floats between 0 and 1 for each cluster
+                                    ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:13:38: E262 inline comment should start with '# '
+    print('cluster number', y,float) #prints out range of 16 floats between 0 and 1 for each cluster
+                                     ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:13:80: E501 line too long (100 > 79 characters)
+    print('cluster number', y,float) #prints out range of 16 floats between 0 and 1 for each cluster
+                                                                               ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+Problem no.1.py:14:6: E261 at least two spaces before inline comment
+else: #Stops the code.
+     ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:14:7: E262 inline comment should start with '# '
+else: #Stops the code.
+      ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.1.py:15:22: W291 trailing whitespace
+    print("finished")
+                     ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12

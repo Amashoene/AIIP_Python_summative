@@ -1,0 +1,435 @@
+Problem no.2.2py.py:7:1: E265 block comment should start with '# '
+#Problem 2.2:
+^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:9:1: E265 block comment should start with '# '
+#This code is for dating and time stamping each interval of data collection on the text file.
+^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:9:80: E501 line too long (93 > 79 characters)
+#This code is for dating and time stamping each interval of data collection on the text file.
+                                                                               ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+Problem no.2.2py.py:11:26: E261 at least two spaces before inline comment
+from datetime import date #This add the date the code was written on the text file.
+                         ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:11:27: E262 inline comment should start with '# '
+from datetime import date #This add the date the code was written on the text file.
+                          ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:11:80: E501 line too long (83 > 79 characters)
+from datetime import date #This add the date the code was written on the text file.
+                                                                               ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+Problem no.2.2py.py:12:18: E261 at least two spaces before inline comment
+d1 = date.today() # this dates the file to the day this file was read
+                 ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:14:12: E211 whitespace before '('
+file = open ("Sensor_Network_Clusters.txt" , "r") #This code reads the data that is on the textfile.
+           ^
+    Avoid extraneous whitespace.
+
+    Avoid extraneous whitespace in the following situations:
+    - before the open parenthesis that starts the argument list of a
+      function call.
+    - before the open parenthesis that starts an indexing or slicing.
+
+    Okay: spam(1)
+    E211: spam (1)
+
+    Okay: dict['key'] = list[index]
+    E211: dict ['key'] = list[index]
+    E211: dict['key'] = list [index]
+Problem no.2.2py.py:14:43: E203 whitespace before ','
+file = open ("Sensor_Network_Clusters.txt" , "r") #This code reads the data that is on the textfile.
+                                          ^
+    Avoid extraneous whitespace.
+
+    Avoid extraneous whitespace in these situations:
+    - Immediately inside parentheses, brackets or braces.
+    - Immediately before a comma, semicolon, or colon.
+
+    Okay: spam(ham[1], {eggs: 2})
+    E201: spam( ham[1], {eggs: 2})
+    E201: spam(ham[ 1], {eggs: 2})
+    E201: spam(ham[1], { eggs: 2})
+    E202: spam(ham[1], {eggs: 2} )
+    E202: spam(ham[1 ], {eggs: 2})
+    E202: spam(ham[1], {eggs: 2 })
+
+    E203: if x == 4: print x, y; x, y = y , x
+    E203: if x == 4: print x, y ; x, y = y, x
+    E203: if x == 4 : print x, y; x, y = y, x
+Problem no.2.2py.py:14:50: E261 at least two spaces before inline comment
+file = open ("Sensor_Network_Clusters.txt" , "r") #This code reads the data that is on the textfile.
+                                                 ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:14:51: E262 inline comment should start with '# '
+file = open ("Sensor_Network_Clusters.txt" , "r") #This code reads the data that is on the textfile.
+                                                  ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:14:80: E501 line too long (100 > 79 characters)
+file = open ("Sensor_Network_Clusters.txt" , "r") #This code reads the data that is on the textfile.
+                                                                               ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+Problem no.2.2py.py:15:1: E265 block comment should start with '# '
+#write some lines of dataset to the file
+^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:16:6: E272 multiple spaces before keyword
+for y  in range(1,33):
+     ^
+    Avoid extraneous whitespace around keywords.
+
+    Okay: True and False
+    E271: True and  False
+    E272: True  and False
+    E273: True and\tFalse
+    E274: True\tand False
+Problem no.2.2py.py:16:18: E231 missing whitespace after ','
+for y  in range(1,33):
+                 ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.2.2py.py:16:23: W291 trailing whitespace
+for y  in range(1,33):
+                      ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:17:18: W291 trailing whitespace
+    import random
+                 ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:18:46: E231 missing whitespace after ','
+    float = [random.random() for i in range(1,17)]
+                                             ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.2.2py.py:18:51: W291 trailing whitespace
+    float = [random.random() for i in range(1,17)]
+                                                  ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:19:30: E231 missing whitespace after ','
+    print('cluster number', y,float)
+                             ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.2.2py.py:19:37: W291 trailing whitespace
+    print('cluster number', y,float)
+                                    ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:23:1: W293 blank line contains whitespace
+
+^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:24:6: W291 trailing whitespace
+else:
+     ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:25:17: E261 at least two spaces before inline comment
+    file.close() #close the file when done
+                ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:25:18: E262 inline comment should start with '# '
+    file.close() #close the file when done
+                 ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.2py.py:26:22: W291 trailing whitespace
+    print("finished")
+                     ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:27:1: W293 blank line contains whitespace
+
+^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:29:1: W293 blank line contains whitespace
+
+^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.2py.py:29:1: W391 blank line at end of file
+
+^
+    Trailing blank lines are superfluous.
+
+    Okay: spam(1)
+    W391: spam(1)\n
+
+    However the last line should end with a new line (warning W292).

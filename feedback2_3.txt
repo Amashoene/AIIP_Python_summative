@@ -1,0 +1,411 @@
+Problem no.2.3py.py:7:1: E265 block comment should start with '# '
+#Problem 2.3:
+^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.3py.py:8:1: E265 block comment should start with '# '
+#This code is for ensuring that new data does not overwrite historical data.
+^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.3py.py:10:26: W291 trailing whitespace
+from datetime import date
+                         ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.3py.py:11:18: E261 at least two spaces before inline comment
+d1 = date.today() # this dates the file to the day this file was read
+                 ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.3py.py:13:12: E211 whitespace before '('
+file = open ("Sensor_Network_Clusters.txt" , "w")
+           ^
+    Avoid extraneous whitespace.
+
+    Avoid extraneous whitespace in the following situations:
+    - before the open parenthesis that starts the argument list of a
+      function call.
+    - before the open parenthesis that starts an indexing or slicing.
+
+    Okay: spam(1)
+    E211: spam (1)
+
+    Okay: dict['key'] = list[index]
+    E211: dict ['key'] = list[index]
+    E211: dict['key'] = list [index]
+Problem no.2.3py.py:13:43: E203 whitespace before ','
+file = open ("Sensor_Network_Clusters.txt" , "w")
+                                          ^
+    Avoid extraneous whitespace.
+
+    Avoid extraneous whitespace in these situations:
+    - Immediately inside parentheses, brackets or braces.
+    - Immediately before a comma, semicolon, or colon.
+
+    Okay: spam(ham[1], {eggs: 2})
+    E201: spam( ham[1], {eggs: 2})
+    E201: spam(ham[ 1], {eggs: 2})
+    E201: spam(ham[1], { eggs: 2})
+    E202: spam(ham[1], {eggs: 2} )
+    E202: spam(ham[1 ], {eggs: 2})
+    E202: spam(ham[1], {eggs: 2 })
+
+    E203: if x == 4: print x, y; x, y = y , x
+    E203: if x == 4: print x, y ; x, y = y, x
+    E203: if x == 4 : print x, y; x, y = y, x
+Problem no.2.3py.py:14:1: E265 block comment should start with '# '
+#write some lines of dataset to the file
+^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.3py.py:15:6: E272 multiple spaces before keyword
+for y  in range(1,33):
+     ^
+    Avoid extraneous whitespace around keywords.
+
+    Okay: True and False
+    E271: True and  False
+    E272: True  and False
+    E273: True and\tFalse
+    E274: True\tand False
+Problem no.2.3py.py:15:18: E231 missing whitespace after ','
+for y  in range(1,33):
+                 ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.2.3py.py:15:23: W291 trailing whitespace
+for y  in range(1,33):
+                      ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.3py.py:17:18: W291 trailing whitespace
+    import random
+                 ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.3py.py:18:46: E231 missing whitespace after ','
+    float = [random.random() for i in range(1,17)]
+                                             ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.2.3py.py:18:51: W291 trailing whitespace
+    float = [random.random() for i in range(1,17)]
+                                                  ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.3py.py:19:30: E231 missing whitespace after ','
+    print('cluster number', y,float)
+                             ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.2.3py.py:19:37: W291 trailing whitespace
+    print('cluster number', y,float)
+                                    ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.3py.py:23:6: W291 trailing whitespace
+else:
+     ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.3py.py:24:17: E261 at least two spaces before inline comment
+    file.close() #close the file when done
+                ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.3py.py:24:18: E262 inline comment should start with '# '
+    file.close() #close the file when done
+                 ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.3py.py:25:22: W291 trailing whitespace
+    print("finished")
+                     ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.3py.py:27:46: E231 missing whitespace after ','
+    float = [random.random() for i in range(1,17)]
+                                             ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.2.3py.py:27:51: W291 trailing whitespace
+    float = [random.random() for i in range(1,17)]
+                                                  ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+Problem no.2.3py.py:28:5: E265 block comment should start with '# '
+    #prints floats
+    ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.
+    Inline comments should be separated by at least two spaces from the
+    statement. They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+Problem no.2.3py.py:29:14: E211 whitespace before '('
+    with open ("Sensor_Network_Clusters.txt" , "a") as outfile:
+             ^
+    Avoid extraneous whitespace.
+
+    Avoid extraneous whitespace in the following situations:
+    - before the open parenthesis that starts the argument list of a
+      function call.
+    - before the open parenthesis that starts an indexing or slicing.
+
+    Okay: spam(1)
+    E211: spam (1)
+
+    Okay: dict['key'] = list[index]
+    E211: dict ['key'] = list[index]
+    E211: dict['key'] = list [index]
+Problem no.2.3py.py:29:45: E203 whitespace before ','
+    with open ("Sensor_Network_Clusters.txt" , "a") as outfile:
+                                            ^
+    Avoid extraneous whitespace.
+
+    Avoid extraneous whitespace in these situations:
+    - Immediately inside parentheses, brackets or braces.
+    - Immediately before a comma, semicolon, or colon.
+
+    Okay: spam(ham[1], {eggs: 2})
+    E201: spam( ham[1], {eggs: 2})
+    E201: spam(ham[ 1], {eggs: 2})
+    E201: spam(ham[1], { eggs: 2})
+    E202: spam(ham[1], {eggs: 2} )
+    E202: spam(ham[1 ], {eggs: 2})
+    E202: spam(ham[1], {eggs: 2 })
+
+    E203: if x == 4: print x, y; x, y = y , x
+    E203: if x == 4: print x, y ; x, y = y, x
+    E203: if x == 4 : print x, y; x, y = y, x
+Problem no.2.3py.py:30:6: E111 indentation is not a multiple of four
+     print('cluster number', y,float)
+     ^
+    Use 4 spaces per indentation level.
+
+    For really old code that you don't want to mess up, you can continue
+    to use 8-space tabs.
+
+    Okay: a = 1
+    Okay: if a == 0:\n    a = 1
+    E111:   a = 1
+    E114:   # a = 1
+
+    Okay: for item in items:\n    pass
+    E112: for item in items:\npass
+    E115: for item in items:\n# Hi\n    pass
+
+    Okay: a = 1\nb = 2
+    E113: a = 1\n    b = 2
+    E116: a = 1\n    # b = 2
+Problem no.2.3py.py:30:31: E231 missing whitespace after ','
+     print('cluster number', y,float)
+                              ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+Problem no.2.3py.py:30:38: W291 trailing whitespace
+     print('cluster number', y,float)
+                                     ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
